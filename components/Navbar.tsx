@@ -30,6 +30,7 @@ export const Navbar: React.FC = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-12">
+          <a href="#" className="font-sans text-xs uppercase tracking-widest text-neutral-400 hover:text-gold-med transition-colors">Home</a>
           <a href="#solucao" className="font-sans text-xs uppercase tracking-widest text-neutral-400 hover:text-gold-med transition-colors">A Solução</a>
           <a href="#projetos" className="font-sans text-xs uppercase tracking-widest text-neutral-400 hover:text-gold-med transition-colors">Porquê Nós</a>
           <a href="#faq" className="font-sans text-xs uppercase tracking-widest text-neutral-400 hover:text-gold-med transition-colors">FAQ</a>
@@ -47,6 +48,7 @@ export const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       {mobileOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-rich-black border-b border-gold-med/20 py-8 px-6 flex flex-col gap-6">
+          <a href="#" onClick={() => setMobileOpen(false)} className="text-neutral-300 uppercase tracking-widest text-sm">Home</a>
           <a href="#solucao" onClick={() => setMobileOpen(false)} className="text-neutral-300 uppercase tracking-widest text-sm">A Solução</a>
           <a href="#projetos" onClick={() => setMobileOpen(false)} className="text-neutral-300 uppercase tracking-widest text-sm">Porquê Nós</a>
           <a href="#faq" onClick={() => setMobileOpen(false)} className="text-neutral-300 uppercase tracking-widest text-sm">FAQ</a>
