@@ -18,10 +18,37 @@ export const Navbar: React.FC = () => {
       <div className="max-w-[1600px] mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3" onClick={() => window.scrollTo(0, 0)}>
-          <div className="w-10 h-10 border border-gold-med flex items-end justify-center pb-1 relative">
-            <div className="absolute -top-3 w-[120%] h-[1px] bg-gold-med transform rotate-[-45deg] origin-left"></div>
-            <div className="absolute -top-3 w-[120%] h-[1px] bg-gold-med transform rotate-[45deg] origin-right right-0"></div>
-          </div>
+          <svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="min-w-[3rem]">
+            <defs>
+              <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#BF953F" />
+                <stop offset="25%" stopColor="#FCF6BA" />
+                <stop offset="50%" stopColor="#B38728" />
+                <stop offset="75%" stopColor="#FBF5B7" />
+                <stop offset="100%" stopColor="#AA771C" />
+              </linearGradient>
+
+              <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" />
+                <feOffset dx="1" dy="2" result="offsetblur" />
+                <feComponentTransfer>
+                  <feFuncA type="linear" slope="0.5" />
+                </feComponentTransfer>
+                <feMerge>
+                  <feMergeNode />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+
+            <g filter="url(#shadow)">
+              <path d="M 10 50 L 50 13 L 90 50" stroke="url(#goldGradient)" strokeWidth="2.5" strokeLinecap="butt" />
+
+              <path d="M 30 32 L 30 18 L 38 18" stroke="url(#goldGradient)" strokeWidth="2" strokeLinejoin="miter" />
+
+              <path d="M 23 48 L 23 82 L 77 82 L 77 48" stroke="url(#goldGradient)" strokeWidth="2.5" strokeLinecap="butt" fill="none" />
+            </g>
+          </svg>
           <div className="flex flex-col">
             <span className="font-serif text-xl md:text-2xl text-gold-gradient tracking-widest">SPECIAL DOMUS</span>
             <span className="font-sans text-[0.5rem] tracking-[0.2em] text-neutral-400 uppercase">Remodelações Unipessoal Lda.</span>
