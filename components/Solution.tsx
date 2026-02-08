@@ -44,7 +44,7 @@ export const Solution: React.FC = () => {
           <img
             src={brunoImg}
             alt="Bruno Rodrigues"
-            className="relative z-10 w-full h-[600px] object-cover grayscale contrast-125"
+            className="relative z-10 w-full h-[600px] object-cover object-[20%_center] md:object-center grayscale contrast-125"
           />
 
           <div className="absolute bottom-0 left-0 bg-gold-gradient p-1 z-20">

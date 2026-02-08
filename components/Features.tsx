@@ -1,16 +1,18 @@
 import React from 'react';
 import { Section } from './ui/Section';
+import entregaChaveImg from '../assets/entrega-chave2.jpg';
+import obraBemFeitaImg from '../assets/obra-bem-feita.jpg';
 
 const features = [
   {
     title: "Obra bem feita, do início ao fim",
     description: "Nada de remendos ou atalhos. Usamos materiais de qualidade e cuidamos de cada pormenor para que o resultado seja duradouro.",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=800&auto=format&fit=crop"
+    image: obraBemFeitaImg
   },
   {
     title: "Prazos respeitados e planeamento",
     description: "“Obra demorada” não faz parte do nosso vocabulário. Planeamos bem para entregar no prazo combinado, sem surpresas.",
-    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=800&auto=format&fit=crop"
+    image: entregaChaveImg
   },
   {
     title: "Menos stress para si",
