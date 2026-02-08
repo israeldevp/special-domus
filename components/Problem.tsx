@@ -24,7 +24,7 @@ export const Problem: React.FC = () => {
 
         {/* Right: Content */}
         <div className="order-1 md:order-2 space-y-8">
-          <span className="text-red-900/80 uppercase tracking-widest text-xs font-bold">O Problema</span>
+          <span className="text-red-900 uppercase tracking-widest text-lg md:text-xl font-bold">O Problema</span>
           <h2 className="font-serif text-3xl md:text-4xl text-white leading-tight">
             Começar uma remodelação é muitas vezes sinónimo de stress.
           </h2>

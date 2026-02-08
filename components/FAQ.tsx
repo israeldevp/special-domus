@@ -5,7 +5,7 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
   {
     question: "A Special Domus trabalha apenas em Lisboa?",
-    answer: "Atendemos Lisboa e Vale do Tejo, tanto em projetos residenciais como comerciais."
+    answer: "Atuamos em Lisboa e Vale do Tejo, tanto em projetos residenciais como comerciais."
   },
   {
     question: "Os prazos são realmente cumpridos?",
@@ -29,7 +29,7 @@ export const FAQ: React.FC = () => {
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div key={index} className="border-b border-white/10">
-            <button 
+            <button
               className="w-full flex justify-between items-center py-6 text-left focus:outline-none group"
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
@@ -40,7 +40,7 @@ export const FAQ: React.FC = () => {
                 {openIndex === index ? <Minus className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
               </span>
             </button>
-            <div 
+            <div
               className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? 'max-h-40 opacity-100 pb-6' : 'max-h-0 opacity-0'}`}
             >
               <p className="font-sans font-light text-neutral-400 leading-relaxed">
