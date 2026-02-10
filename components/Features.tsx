@@ -50,7 +50,7 @@ export const Features: React.FC = () => {
               </div>
 
               <h3 className="font-serif text-xl text-white mt-4 mb-4 group-hover:text-gold-med transition-colors">{feature.title}</h3>
-              <p className="font-sans text-neutral-400 text-sm leading-relaxed font-light">
+              <p className="font-sans text-neutral-300 text-sm leading-relaxed md:font-light">
                 {feature.description}
               </p>
             </div>

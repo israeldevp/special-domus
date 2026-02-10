@@ -18,11 +18,11 @@ export const Solution: React.FC = () => {
 
           <div className="w-20 h-[1px] bg-gold-med/30"></div>
 
-          <p className="font-sans font-light text-neutral-300 text-lg leading-relaxed">
+          <p className="font-sans md:font-light text-neutral-200 text-lg leading-relaxed">
             Com mais de 10 anos de experiência, <strong>Bruno Rodrigues</strong> lidera cada projeto com atenção ao pormenor, organização e respeito pelo seu espaço.
           </p>
 
-          <p className="font-sans font-light text-neutral-400">
+          <p className="font-sans md:font-light text-neutral-300">
             Seja uma casa antiga, um apartamento, uma moradia ou uma loja, o objetivo é sempre o mesmo: entregar algo bem feito, moderno e com garantia.
           </p>
 

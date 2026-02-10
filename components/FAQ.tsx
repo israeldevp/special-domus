@@ -43,7 +43,7 @@ export const FAQ: React.FC = () => {
             <div
               className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? 'max-h-40 opacity-100 pb-6' : 'max-h-0 opacity-0'}`}
             >
-              <p className="font-sans font-light text-neutral-400 leading-relaxed">
+              <p className="font-sans md:font-light text-neutral-300 leading-relaxed">
                 {faq.answer}
               </p>
             </div>

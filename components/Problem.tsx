@@ -15,7 +15,7 @@ export const Problem: React.FC = () => {
           <img
             src={obraInacabadaImg}
             alt="Obra inacabada"
-            className="relative z-10 w-full h-[500px] object-cover grayscale opacity-60 hover:opacity-80 transition-opacity duration-700"
+            className="relative z-10 w-full h-[500px] object-cover grayscale opacity-80 md:opacity-60 hover:opacity-80 transition-opacity duration-700"
           />
           <div className="absolute bottom-10 left-[-20px] bg-rich-black p-6 border-l-4 border-red-900 max-w-xs z-20 shadow-2xl">
             <p className="font-serif italic text-neutral-400">"Prometeram um prazo e nunca cumpriram."</p>
@@ -28,7 +28,7 @@ export const Problem: React.FC = () => {
           <h2 className="font-serif text-3xl md:text-4xl text-white leading-tight">
             Começar uma remodelação é muitas vezes sinónimo de stress.
           </h2>
-          <p className="font-sans font-light text-neutral-400 leading-relaxed">
+          <p className="font-sans md:font-light text-neutral-300 leading-relaxed">
             Medo que fique mal feito, que a obra se arraste por meses ou que a casa vire um caos.
             E no meio disso tudo, o seu dia a dia fica virado do avesso.
           </p>
@@ -40,7 +40,7 @@ export const Problem: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-serif text-white text-lg">Atrasos Intermináveis</h4>
-                <p className="text-sm text-neutral-500 mt-1">Obras que duram o dobro do tempo previsto.</p>
+                <p className="text-sm text-neutral-400 mt-1">Obras que duram o dobro do tempo previsto.</p>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ export const Problem: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-serif text-white text-lg">Orçamentos Derrapados</h4>
-                <p className="text-sm text-neutral-500 mt-1">"Ficou mais caro no fim" é uma frase que não quer ouvir.</p>
+                <p className="text-sm text-neutral-400 mt-1">"Ficou mais caro no fim" é uma frase que não quer ouvir.</p>
               </div>
             </div>
 
@@ -60,7 +60,7 @@ export const Problem: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-serif text-white text-lg">Acabamentos Pobres</h4>
-                <p className="text-sm text-neutral-500 mt-1">Ter que refazer tudo meses depois.</p>
+                <p className="text-sm text-neutral-400 mt-1">Ter que refazer tudo meses depois.</p>
               </div>
             </div>
           </div>

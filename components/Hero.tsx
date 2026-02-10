@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
             bem feitas e entregues no prazo.
           </h1>
 
-          <p className="font-sans font-light text-neutral-300 text-base md:text-lg leading-relaxed max-w-lg">
+          <p className="font-sans md:font-light text-neutral-200 text-base md:text-lg leading-relaxed max-w-lg">
             Chega de obras que atrasam e ficam mal acabadas.
             Aqui encontra qualidade, limpeza e compromisso do início ao fim.
           </p>
@@ -45,11 +45,11 @@ export const Hero: React.FC = () => {
         <div className="hidden md:block w-64 text-right space-y-6">
           <div className="space-y-1">
             <h3 className="text-gold-med font-serif text-3xl">10+</h3>
-            <p className="text-neutral-500 text-xs uppercase tracking-widest">Anos de Experiência</p>
+            <p className="text-neutral-400 text-xs uppercase tracking-widest">Anos de Experiência</p>
           </div>
           <div className="space-y-1">
             <h3 className="text-gold-med font-serif text-3xl">100%</h3>
-            <p className="text-neutral-500 text-xs uppercase tracking-widest">qualidade e garantia</p>
+            <p className="text-neutral-400 text-xs uppercase tracking-widest">qualidade e garantia</p>
           </div>
         </div>
       </div>
